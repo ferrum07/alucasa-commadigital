@@ -1,0 +1,18 @@
+<script xmlns:js="http://www.schlund.de/tinc/runtimexsl/js">
+		try {
+  			if (window.parent.parent.CSSInject) {
+				var listLength = window.parent.parent.CSSInject.length;
+				for(var i=0; i<listLength; i++){
+					var cssInjectUrl = window.parent.parent.CSSInject[i];
+					document.writeln("<style type='text/css'>@import url("+cssInjectUrl+");</style>");
+				};
+  			}
+		} catch (ex) {};
+	</script>
+    </head>
+    <body>
+    <div id="tinc_content"><center><h2 xmlns="http://www.w3.org/1999/xhtml"></h2>
+    <table xmlns="http://www.w3.org/1999/xhtml" class="dborder" width="95%"><tr><td colspan="2" class="invert">
+    <b>Por favor, rellene el siguiente formulario:</b></td></tr>
+    <form method="post" accept-charset="utf-8" action="http://alucasa.info/tinc">
+    <tr><td colspan="2"><table width="100%" cellspacing="0" cellpadding="1"><colgroup><col width="14%"></col><col width="35%"></col><col width="2%"></col><col width="14%"></col><col width="35%"></col></colgroup><tr height="2"><td colspan="2" height="2"></td></tr><tr><td><b>Nombre:</b></td><td><input type="text" name="givenname" size="30" style="width: 100%" value=""></input></td><td width="2%"> </td><td><b>Apellidos:</b></td><td><input type="text" name="name" size="30" style="width: 100%" value=""></input></td></tr><tr><td><b>E-mail:</b></td><td><input type="text" name="email" size="30" style="width: 100%" value=""></input></td><td width="2%"> </td></tr><tr><td><b>Dirección:</b></td><td><input type="text" name="street" size="30" style="width: 100%" value=""></input></td><td width="2%"> </td></tr><tr><td><b>Teléfono:</b></td><td><input type="text" name="phone" size="30" style="width: 100%" value=""></input></td><td width="2%"> </td></tr><tr><td valign="top"><b>Texto:</b></td><td colspan="4"><textarea cols="50" rows="10" name="comment" style="width: 100%"></textarea></td></tr><tr><td> </td><td colspan="5"><input class="button" type="submit" value="Enviar"></input></td></tr></table></td></tr><tr><td width="80"> </td><td></td></tr><input type="hidden" name="key" value="bOCB2jVs"></input><tr><td class="invert" colspan="2" align="center"></td></tr></form></table></center></div></body></html>

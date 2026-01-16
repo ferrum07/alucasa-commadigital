@@ -1,0 +1,3 @@
+downloader::cat logs/traffic.html/.md5sums permission denied
+downloader::recursive permission denied
+downloader::recursive permission denied
